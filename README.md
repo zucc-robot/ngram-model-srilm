@@ -1,13 +1,17 @@
 NAME
+
 ngram-count - count N-grams and estimate language models
 
 SYNOPSIS
+
 ngram-count [ -help ] option ...
 
 DESCRIPTION
+
 ngram-count generates and manipulates N-gram counts, and estimates N-gram language models from them. The program first builds an internal N-gram count set, either by reading counts from a file, or by scanning text input. Following that, the resulting counts can be output back to a file or used for building an N-gram language model in ARPA ngram-format(5). Each of these actions is triggered by corresponding options, as described below.
 
 OPTIONS
+
 Each filename argument can be an ASCII file, or a compressed file (name ending in .Z or .gz), or '''' to indicate stdin/stdout.
 
 -help
